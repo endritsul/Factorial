@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FakultätVonN
+namespace FacultyOfN
 {
     class Program
     {
         static void Main(string[] args)
         {
 
-            int zahl;
+            int number;
             int result = 1;
-            string streingabe;
+            string strGivenNumber;
 
-            Console.WriteLine("Zahl eingeben");
-            streingabe = Console.ReadLine();
-            zahl = Convert.ToInt32(streingabe);
+            Console.WriteLine("... Type in a number");
+            strGivenNumber = Console.ReadLine();
+            number = Convert.ToInt32(strGivenNumber);
 
             for (int i = 1; i<=zahl; i++)
             {
